@@ -1,3 +1,7 @@
+platform_user:
+    resource: "@PlatformUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
