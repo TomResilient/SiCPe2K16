@@ -1,0 +1,17 @@
+Platform\DBBundle\Entity\answer:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\answerRepository
+    id:
+        idanswer:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        answer:
+            type: string
+            length: '255'
+        value:
+            type: integer
+    lifecycleCallbacks: {  }

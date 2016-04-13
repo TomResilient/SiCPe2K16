@@ -1,0 +1,15 @@
+Platform\DBBundle\Entity\questionanswer:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\questionanswerRepository
+    id:
+        idquestion:
+            type: integer
+            id: true
+        idanswer:
+            type: integer
+            id: true
+        idsurvey:
+            type: integer
+            id: true
+    lifecycleCallbacks: {  }

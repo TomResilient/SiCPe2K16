@@ -1,0 +1,18 @@
+Platform\DBBundle\Entity\survey:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\surveyRepository
+    id:
+        idsurvey:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        idsubject:
+            type: integer
+        commentary:
+            type: text
+        datesurvey:
+            type: datetime
+    lifecycleCallbacks: {  }

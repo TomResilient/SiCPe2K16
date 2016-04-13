@@ -1,0 +1,15 @@
+Platform\DBBundle\Entity\workshopsubject:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\workshopsubjectRepository
+    id:
+        idworkshop:
+            type: integer
+            id: true
+        idsubject:
+            type: integer
+            id: true
+        datews:
+            type: datetime
+            id: true
+    lifecycleCallbacks: {  }
