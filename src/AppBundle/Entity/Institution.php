@@ -2,126 +2,112 @@
 
 namespace AppBundle\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
-
 /**
- * Institution
- *
- * @ORM\Table(name="institution")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\InstitutionRepository")
+ * institution
  */
-class Institution
+class institution
 {
     /**
-     * @var int
-     *
-     * @ORM\Column(name="idinstitution", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
+     * @var integer
      */
-    private $idInstitution;
+    private $idinstitution;
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="nameinstitution", type="string", length=255)
      */
-    private $nameInstitution;
+    private $nameinstitution;
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="adressinstitution", type="string", length=255, unique=true)
      */
     private $adressinstitution;
 
     /**
-     * @var int
-     *
-     * @ORM\Column(name="phoneinstitution", type="integer", unique=true)
+     * @var integer
      */
-    private $phoneInstitution;
+    private $phoneinstitution;
 
 
     /**
-     * Get idInstitution
+     * Get idinstitution
      *
-     * @return int
+     * @return integer
      */
-    public function getIdInstitution()
+    public function getIdinstitution()
     {
-        return $this->idInstitution;
+        return $this->idinstitution;
     }
 
     /**
-     * Set nameInstitution
+     * Set nameinstitution
      *
-     * @param string $nameInstitution
+     * @param string $nameinstitution
      *
-     * @return Institution
+     * @return institution
      */
-    public function setNameInstitution($nameInstitution)
+    public function setNameinstitution($nameinstitution)
     {
-        $this->nameInstitution = $nameInstitution;
+        $this->nameinstitution = $nameinstitution;
 
         return $this;
     }
 
     /**
-     * Get nameInstitution
+     * Get nameinstitution
      *
      * @return string
      */
-    public function getNameInstitution()
+    public function getNameinstitution()
     {
-        return $this->nameInstitution;
+        return $this->nameinstitution;
     }
 
     /**
-     * Set adressInstitution
+     * Set adressinstitution
      *
-     * @param string $adressInstitution
+     * @param string $adressinstitution
      *
-     * @return Institution
+     * @return institution
      */
-    public function setAdressInstitution($adressInstitution)
+    public function setAdressinstitution($adressinstitution)
     {
-        $this->adressInstitution = $adressInstitution;
+        $this->adressinstitution = $adressinstitution;
 
         return $this;
     }
 
     /**
-     * Get adressInstitution
+     * Get adressinstitution
      *
      * @return string
      */
-    public function getAdressInstitution()
+    public function getAdressinstitution()
     {
-        return $this->adressInstitution;
+        return $this->adressinstitution;
     }
 
     /**
-     * Set phoneInstitution
+     * Set phoneinstitution
      *
-     * @param integer $phoneInstitution
+     * @param integer $phoneinstitution
      *
-     * @return Institution
+     * @return institution
      */
-    public function setPhoneInstitution($phoneInstitution)
+    public function setPhoneinstitution($phoneinstitution)
     {
-        $this->phoneInstitution = $phoneInstitution;
+        $this->phoneinstitution = $phoneinstitution;
 
         return $this;
     }
 
     /**
-     * Get phoneInstitution
+     * Get phoneinstitution
      *
-     * @return int
+     * @return integer
      */
-    public function getPhoneInstitution()
+    public function getPhoneinstitution()
     {
-        return $this->phoneInstitution;
+        return $this->phoneinstitution;
     }
 }
+
