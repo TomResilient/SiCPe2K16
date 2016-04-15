@@ -1,0 +1,3 @@
+platform_db_homepage:
+    path:     /
+    defaults: { _controller: PlatformDBBundle:Default:index }

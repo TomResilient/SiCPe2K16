@@ -1,0 +1,30 @@
+Platform\DBBundle\Entity\questionanswer:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\questionanswerRepository
+    id:
+        idquestionanswer:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    manyToOne:
+        idquestion:
+            targetEntity: question
+            joinColumn:
+                name: idquestion
+                referencedColumnName: idquestion
+                nullable: false
+        idanswer:
+            targetEntity: answer
+            joinColumn:
+                name: idanswar
+                referencedColumnName: idanswer
+                nullable: false
+        idsurvey:
+            targetEntity: survey
+            joinColumn:
+                name: idsurvey
+                referencedColumnName: idsurvey
+                nullable: false
+    lifecycleCallbacks: {  }

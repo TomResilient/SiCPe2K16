@@ -1,0 +1,18 @@
+Platform\DBBundle\Entity\question:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\questionRepository
+    id:
+        idquestion:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        question:
+            type: text
+        category:
+            type: string
+            length: '255'
+            unique: true
+    lifecycleCallbacks: {  }

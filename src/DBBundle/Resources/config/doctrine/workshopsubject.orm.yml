@@ -1,0 +1,27 @@
+Platform\DBBundle\Entity\workshopsubject:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\workshopsubjectRepository
+    id:
+        idworkshopsubject:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    manyToOne:
+        idworkshop:
+            targetEntity: workshop
+            joinColumn:
+                name: idworkshop
+                referencedColumnName: idworkshop
+                nullable: false
+        idsubject:
+            targetEntity: subject
+            joinColumn:
+                name: idsubject
+                referencedColumnName: idsubject
+                nullable: false
+    fields:
+        datews:
+            type: datetime
+    lifecycleCallbacks: {  }

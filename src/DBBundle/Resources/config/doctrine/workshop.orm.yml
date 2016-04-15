@@ -1,0 +1,23 @@
+Platform\DBBundle\Entity\workshop:
+    type: entity
+    table: null
+    repositoryClass: Platform\DBBundle\Repository\workshopRepository
+    id:
+        idworkshop:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nameworkshop:
+            type: string
+            length: '255'
+            unique: true
+    manyToOne:
+        idpersonincharge:
+            targetEntity: personincharge
+            joinColumn:
+                name: idpersonincharge
+                referencedColumnName: idpersonincharge
+                nullable: false
+    lifecycleCallbacks: {  }
