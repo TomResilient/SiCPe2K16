@@ -1,7 +1,3 @@
-platform_db:
-    resource: "@PlatformDBBundle/Resources/config/routing.yml"
-    prefix:   /
-
 platform_user:
     resource: "@PlatformUserBundle/Resources/config/routing.yml"
     prefix:   /
