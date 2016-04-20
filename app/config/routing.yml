@@ -1,6 +1,10 @@
+subjects:
+    resource: "@SubjectsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 platform_db:
     resource: "@PlatformDBBundle/Resources/config/routing.yml"
-    prefix:   /pd
+    prefix:   /db
 
 platform_user:
     resource: "@PlatformUserBundle/Resources/config/routing.yml"
