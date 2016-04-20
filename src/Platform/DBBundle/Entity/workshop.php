@@ -81,4 +81,3 @@ class workshop
         return $this->idpersonincharge;
     }
 }
-

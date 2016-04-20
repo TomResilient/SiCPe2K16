@@ -24,4 +24,5 @@ Platform\DBBundle\Entity\workshopsubject:
     fields:
         datews:
             type: datetime
+            columnDefinition: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     lifecycleCallbacks: {  }

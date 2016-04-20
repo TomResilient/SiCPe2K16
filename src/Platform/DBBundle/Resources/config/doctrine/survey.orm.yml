@@ -11,8 +11,10 @@ Platform\DBBundle\Entity\survey:
     fields:
         commentary:
             type: text
+            nullable: true
         datesurvey:
             type: datetime
+            columnDefinition: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     manyToOne:
         idsubject:
             targetEntity: subject

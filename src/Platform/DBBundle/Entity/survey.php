@@ -110,4 +110,3 @@ class survey
         return $this->idsubject;
     }
 }
-

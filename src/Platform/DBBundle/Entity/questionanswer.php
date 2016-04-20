@@ -110,4 +110,3 @@ class questionanswer
         return $this->idsurvey;
     }
 }
-

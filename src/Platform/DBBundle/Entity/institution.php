@@ -110,4 +110,3 @@ class institution
         return $this->phoneinstitution;
     }
 }
-

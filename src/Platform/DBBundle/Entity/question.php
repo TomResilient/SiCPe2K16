@@ -81,4 +81,3 @@ class question
         return $this->category;
     }
 }
-

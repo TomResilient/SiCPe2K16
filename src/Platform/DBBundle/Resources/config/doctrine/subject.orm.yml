@@ -19,10 +19,12 @@ Platform\DBBundle\Entity\subject:
             type: integer
         creationdate:
             type: datetime
+            columnDefinition: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         status:
             type: boolean
         commentary:
             type: text
+            nullable: true
     manyToOne:
         idinstitution:
             targetEntity: institution

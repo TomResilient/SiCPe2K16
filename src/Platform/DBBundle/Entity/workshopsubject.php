@@ -110,4 +110,3 @@ class workshopsubject
         return $this->idsubject;
     }
 }
-

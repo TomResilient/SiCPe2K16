@@ -14,5 +14,4 @@ Platform\DBBundle\Entity\question:
         category:
             type: string
             length: '255'
-            unique: true
     lifecycleCallbacks: {  }

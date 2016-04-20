@@ -81,4 +81,3 @@ class answer
         return $this->value;
     }
 }
-

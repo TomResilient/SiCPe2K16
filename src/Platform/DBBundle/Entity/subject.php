@@ -255,4 +255,3 @@ class subject
         return $this->idinstitution;
     }
 }
-
