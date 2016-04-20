@@ -1,5 +1,5 @@
 <?php
-namespace Platform\UserBundle\Controller;
+namespace Platform\UserBundle\PublicController;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
