@@ -18,7 +18,7 @@ security:
                     login_path: /
                     check_path: /login_check
                     #redirection après login.
-                    default_target_path: /
+                    default_target_path: /sbjcts
                     remember_me: true
                 remember_me:
                     key: %secret%
