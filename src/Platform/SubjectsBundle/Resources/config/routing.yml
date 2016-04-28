@@ -1,3 +1,15 @@
 subjects_homepage:
     path:     /sbjcts
     defaults: { _controller: SubjectsBundle:Default:index }
+
+subjects_card:
+    path:     /c_subjects
+    defaults: { _controller: SubjectsBundle:Default:index }
+
+subjects_list:
+    path:     /l_subjects
+    defaults: { _controller: SubjectsBundle:Default:index }
+
+subjects_newcard:
+    path:     /nc_subjects
+    defaults: { _controller: SubjectsBundle:Default:index }
