@@ -254,4 +254,62 @@ class subject
     {
         return $this->idinstitution;
     }
+    /**
+     * @var boolean
+     */
+    private $frail;
+
+
+    /**
+     * Set frail
+     *
+     * @param boolean $frail
+     *
+     * @return subject
+     */
+    public function setFrail($frail)
+    {
+        $this->frail = $frail;
+
+        return $this;
+    }
+
+    /**
+     * Get frail
+     *
+     * @return boolean
+     */
+    public function getFrail()
+    {
+        return $this->frail;
+    }
+    /**
+     * @var integer
+     */
+    private $realid;
+
+
+    /**
+     * Set realid
+     *
+     * @param integer $realid
+     *
+     * @return subject
+     */
+    public function setRealid($realid)
+    {
+        $this->realid = $realid;
+
+        return $this;
+    }
+
+    /**
+     * Get realid
+     *
+     * @return integer
+     */
+    public function getRealid()
+    {
+        return $this->realid;
+    }
 }

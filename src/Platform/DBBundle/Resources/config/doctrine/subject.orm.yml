@@ -25,6 +25,10 @@ Platform\DBBundle\Entity\subject:
         commentary:
             type: text
             nullable: true
+        frail:
+            type: boolean
+        realid:
+            type: integer
     manyToOne:
         idinstitution:
             targetEntity: institution
